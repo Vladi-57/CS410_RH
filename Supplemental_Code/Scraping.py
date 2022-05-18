@@ -15,7 +15,7 @@ from glob import glob
 
 
 # source: https://ladvien.com/scraping-internet-for-magic-symbols/
-number_of_images = 1
+number_of_images = 3000
 GET_IMAGE_TIMEOUT = 2
 SLEEP_BETWEEN_INTERACTIONS = 0.1
 SLEEP_BEFORE_MORE = 5
