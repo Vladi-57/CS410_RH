@@ -82,7 +82,11 @@ Before you are able to run this project you need to first setup the proper envir
 
 ## Code Documentation 
 To run the artwork generator software you should follow the following steps: 
-- You should first navigate to the RH_GAN folder where the GAN.py is located. 
+- First thing you should do is donwload one of the following datasets from this DropBox link or the Mega link and put the folder titeled [Data_NPY_Files] in the same directory as the GAN.py file: 
+
+    - [DropBox](https://www.dropbox.com/s/j136jhc8121xl97/Data_NPY_Files.zip?dl=0)
+    - [Mega](https://mega.nz/folder/QD8gWAQD#lIsT2P6f7mmEKnthlkGDxg)
+- You should then navigate to the RH_GAN folder where the GAN.py is located. 
 
      ```Python 
      cd RH_GAN 
@@ -165,15 +169,17 @@ To run the artwork generator software you should follow the following steps:
 
 This repo consists of the following folders structure: 
 - RH GAN: Main GAN software folder 
-    - Data_NPY_Files: Input Datasets as NPY files for all themes supported by the software 
+    - Data_NPY_Files: Input Datasets as NPY files for all themes supported by the software. This folder should be downloaded from the DropBox or the Mega link. 
         - dark.npy
         - demons.npy 
+        - depression.npy
         - hell.npy
         - purgatory.npy
         - psychedelic.npy
         - allThemes.npy
     - Output: The output folders where the outputs are saved for each theme 
         - dark_output 
+        - depression_output
         - demons_output 
         - hell_output 
         - purgatory_output 
@@ -181,6 +187,7 @@ This repo consists of the following folders structure:
         - allThemes_output 
     - Resized: The resized output where the resized outputs are saved after running the Img_Resize.npy on an Output folder. 
         - dark_resized
+        - depression_resized
         - demons_resized 
         - hell_resized 
         - purgatory_resized
