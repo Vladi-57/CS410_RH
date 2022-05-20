@@ -79,6 +79,8 @@ Before you are able to run this project you need to first setup the proper envir
     - https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
 - Installing Tensorflow: 
     - https://www.tensorflow.org/install
+    
+Once you have conda, you can easily set up the required environement to run this project by using our [Environement.yaml] file which can be used to create the same environement as the one we used to run develop and run this project. You can run the following command to use the environement:
 ```Python
 Conda env create -f environement.yaml 
 ```
